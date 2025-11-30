@@ -1,4 +1,7 @@
 from vehicle import Vehicle
 
 class Car(Vehicle):
-    pass
+    # Overriding the go() method for Car-specific behavior
+    def go(self):
+        return "VRRROOOOOOOOOOOOOOOOOOOOOOOM!!!!!"
+
